@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
-    ShareLib.initPlatform(application, arrayListOf(WeChatFriendPlatformSetting("你注册的appid"),WeChatScenePlatformSetting("你注册的appid"),
-        QQFriendPlatformSetting("你注册的appid"),QQSpacePlatformSetting("你注册的appid"),
-        WeiBoPlatformSetting("你注册的appKey","你注册的appRedirect","你注册的scope")))
-    PayLib.initPayLib(application,AlipayUtil,WeChatPayUtil)
-    PayUtil.showPay(this, PayEntity())
-    ShareUtil.share(this, "标题","说明","图片路径","网址")
+//    ShareLib.initPlatform(application, arrayListOf(WeChatFriendPlatformSetting("你注册的appid"),WeChatScenePlatformSetting("你注册的appid"),
+//        QQFriendPlatformSetting("你注册的appid"),QQSpacePlatformSetting("你注册的appid"),
+//        WeiBoPlatformSetting("你注册的appKey","你注册的appRedirect","你注册的scope")))
+//    PayLib.initPayLib(application,AlipayUtil,WeChatPayUtil)
+//    PayUtil.showPay(this, PayEntity())
+//    ShareUtil.share(this, "标题","说明","图片路径","网址")
   }
 
   override fun onActivityResult(requestCode: Int,resultCode: Int,data: Intent?) {

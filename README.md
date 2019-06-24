@@ -7,6 +7,26 @@
 
 支付平台:微信,支付宝
 
+## Gradle
+
+[![](https://jitpack.io/v/zack-zjc/ShareAndPayLib.svg)](https://jitpack.io/#zack-zjc/ShareAndPayLib)
+
+```groovy
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+```	
+
+Step 2. 在你的module的build.gradle文件中增加RichEditText依赖。
+
+```groovy
+implementation 'com.github.zack-zjc:ShareAndPayLib:1.0.0'
+```
+
+
 ## 使用说明
 
 分享：
