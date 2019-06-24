@@ -1,0 +1,22 @@
+project.ext {
+
+    android = [
+        compileSdkVersion: 28,
+        buildToolsVersion: "27.0.3",
+        minSdkVersion    : 21,
+        targetSdkVersion : 27
+    ]
+
+    dependencies = [
+        "kotlin-stdlib-jdk7"            : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
+        "constraintlayout"              : "com.android.support.constraint:constraint-layout:1.1.2",
+        "recyclerview-v7"               : "com.android.support:recyclerview-v7:27.1.1",
+        "appcompat-v7"                  : "com.android.support:appcompat-v7:27.1.1",
+        "support-v4"                    : "com.android.support:support-v4:27.1.1",
+        "design"                        : 'com.android.support:design:27.1.1',
+        "rxpermissions"                 : "com.github.tbruyelle:rxpermissions:0.10.2",
+        "wechat-sdk"                    : "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+",
+        "weibo-sdk"                     : "com.sina.weibo.sdk:core:4.3.6:openDefaultRelease@aar",
+        "CBDialog"                      : "com.github.yilylong:CBDialog:v1.0.7",
+    ]
+}
