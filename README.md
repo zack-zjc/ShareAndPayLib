@@ -20,7 +20,7 @@
 
 原生界面调用：
 ```groovy
-	 ShareUtil.share("activity引用", "标题","说明","图片路径","网址","callback")
+	 ShareUtil.share("activity引用", "标题","说明","图片路径-本地文件路径","网址","callback")
 ```	
 
 原生界面调用Activity：
