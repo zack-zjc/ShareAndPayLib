@@ -19,3 +19,28 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+#wechat-sdk-start
+-keep class com.tencent.mm.opensdk.** {
+    *;
+}
+-keep class com.tencent.wxop.** {
+    *;
+}
+-keep class com.tencent.mm.sdk.** {
+    *;
+}
+#wechat-sdk-end
+
+#qq-sdk-start
+-keep class com.tencent.open.TDialog$*
+-keep class com.tencent.open.TDialog$* {*;}
+-keep class com.tencent.open.PKDialog
+-keep class com.tencent.open.PKDialog {*;}
+-keep class com.tencent.open.PKDialog$*
+-keep class com.tencent.open.PKDialog$* {*;}
+#qq-sdk-end
+
+#weibo-sdk-start
+-keep class com.sina.weibo.sdk.** { *; }
+#weibo-sdk-end
